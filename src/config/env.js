@@ -22,3 +22,8 @@ export {
     routerMode,
     imgBaseUrl,
 }
+
+/*
+* process对象是全局变量，它提供当前node.js的有关信息，以及控制当前node.js的有关进程
+* 主要是用来判断当前项目所处的开发环境，通常情况下本地开发环境（development），测试环境，生产环境（production）
+*/
